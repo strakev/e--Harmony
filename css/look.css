@@ -53,17 +53,6 @@ h4{
 	text-align: left;
 	text-decoration: underline;
 }
-.registerbtn {
-	font-size: medium;
-	background-color: #005757;
-	color: white;
-	padding: 16px 20px;
-	margin: 8px 0;
-	border: none;
-	cursor: pointer;
-	width: 100%;
-	opacity: 0.9;
-}
 .container{
 	border-radius: 5px;
 	background-color: #f2f2f2;
