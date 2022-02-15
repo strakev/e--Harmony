@@ -1,5 +1,10 @@
 <style>
 
+a:link {
+	color: powderblue;
+	background-color: transparent;
+	text-decoration: none;
+}
 
 a:visited {
 	color: powderblue;
