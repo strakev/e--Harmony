@@ -1,0 +1,92 @@
+*{box-sizing: border-box;
+}
+input[type=text], input[type=radio]
+{
+	width: 75%;
+	padding: 12px;
+	border: 1px solid rgb(168, 166, 166);
+	border-radius: 4px;
+	resize: vertical;
+}
+textarea{
+	width: 75%;
+	padding: 12px;
+	border: 1px solid rgb(168, 166, 166);
+	border-radius: 4px;
+	resize: vertical;
+}
+input[type=radio] {
+	width: 1%;
+	padding-left: 0%;
+	border: 1px solid rgb(168, 166, 166);
+	border-radius: 4px;
+	resize: vertical;
+}
+h1{
+	font-family: Arial;
+	font-size: x-large;
+	font-style: normal;
+	font-weight: bold;
+	color: black;
+	text-align: left;
+	text-decoration: underline;
+}
+label{
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+h3{
+	font-family: Arial;
+	font-size: medium;
+	font-style: normal;
+	font-weight: bold;
+	color: black;
+	text-align: left;
+	text-decoration: underline;
+}
+h4{
+	font-family: Arial;
+	font-size: medium;
+	font-style: normal;
+	font-weight: bold;
+	color: black;
+	text-align: left;
+	text-decoration: underline;
+}
+.registerbtn {
+	font-size: medium;
+	background-color: #005757;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+.container{
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+.col-10{
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+.col-90{
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+}
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+@media screen and (max-width: 600px) {
+	.col-10,.col-90,input[type=submit]{
+		width: 100%;
+		margin-top: 0;
+	}
+}
